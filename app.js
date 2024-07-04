@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Simple GET route
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello World Back!');
 });
 
 // Simple POST route
