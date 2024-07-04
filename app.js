@@ -22,7 +22,6 @@ app.get('/user/:id', (req, res) => {
   res.send(`User ID is: ${userId}`);
 });
 
-// Start the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
